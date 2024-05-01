@@ -1,0 +1,69 @@
+body {
+    background: hsla(253, 100%, 10%, 1);
+    background: linear-gradient(0deg, hsla(253, 100%, 10%, 1) 0%, hsla(220, 100%, 17%, 1) 10%, hsla(220, 100%, 29%, 1) 20%, hsla(220, 100%, 41%, 1) 30%, hsla(212, 100%, 47%, 1) 40%, hsla(215, 100%, 61%, 1) 50%, hsla(204, 96%, 54%, 1) 60%, hsla(210, 100%, 68%, 1) 70%, hsla(207, 100%, 73%, 1) 81%, hsla(199, 83%, 72%, 1) 90%, hsla(205, 97%, 77%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(253, 100%, 10%, 1) 0%, hsla(220, 100%, 17%, 1) 10%, hsla(220, 100%, 29%, 1) 20%, hsla(220, 100%, 41%, 1) 30%, hsla(212, 100%, 47%, 1) 40%, hsla(215, 100%, 61%, 1) 50%, hsla(204, 96%, 54%, 1) 60%, hsla(210, 100%, 68%, 1) 70%, hsla(207, 100%, 73%, 1) 81%, hsla(199, 83%, 72%, 1) 90%, hsla(205, 97%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(253, 100%, 10%, 1) 0%, hsla(220, 100%, 17%, 1) 10%, hsla(220, 100%, 29%, 1) 20%, hsla(220, 100%, 41%, 1) 30%, hsla(212, 100%, 47%, 1) 40%, hsla(215, 100%, 61%, 1) 50%, hsla(204, 96%, 54%, 1) 60%, hsla(210, 100%, 68%, 1) 70%, hsla(207, 100%, 73%, 1) 81%, hsla(199, 83%, 72%, 1) 90%, hsla(205, 97%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0B0033", endColorstr="#001D56", GradientType=1);
+    background-size: cover;
+    background-position: 0;
+}
+
+.heading {
+    width: 100%;
+    top: 0;   
+}
+
+.st {
+    font-size: xx-large;
+}
+
+.nd {
+    font-size: x-large;
+}
+
+.copyright_footer {
+    bottom: 0;
+    position: sticky;
+    color: aquamarine;
+    background-color: rgb(112, 112, 112);
+    border-width: 5px;
+    border-color: midnightblue;
+    border-style: ridge;
+}
+
+#small_talk {
+    text-align: justify center;
+    font-size: large;
+    color: yellow;
+    font-weight: 700;
+    font-family: rockwell;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about {
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#thankyou {
+    color: white;
+}
+
+a {
+    color: red;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 746
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#scroller {
+    top: 0;
+    position: sticky;
+}
